@@ -1,0 +1,230 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: #ff9900;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  border-color: #333;
+  border-width: 10px;
+  border-style: solid;
+}
+
+/* Cuerpo */
+
+.inicio {
+  background-color: #ccc;
+}
+
+.folder {
+  background-color: #333;
+  width: auto;
+  height: auto;
+}
+
+.portafolio,
+.portafolio2,
+.portafolio3 {
+  background-color: #333;
+  display: inline-block;
+}
+
+.nuestro,
+.porta {
+  color: #ffffff;
+}
+
+.titulo {
+  font-size: 10mm;
+}
+
+.card_img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn_ver {
+  background-color: blue;
+  color: #fff;
+}
+
+.title,
+.nuestro {
+  text-align: center;
+}
+
+.derechos_a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.derechos {
+  text-align: center;
+}
+
+.contacto {
+  background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card_c .card-body .card-title,
+.card_c .card-body .card-text {
+  color: white;
+}
+
+.link {
+  font-size: 7mm;
+  margin-bottom: 10px;
+}
+
+.gallery,
+.gallery_1,
+.gallery_2 {
+  display: inline-block;
+}
+
+/* Estilos responsive */
+
+@media screen and (max-width: 768px) {
+  /* Encabezado */
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    margin-left: 170px;
+  }
+
+  nav ul {
+    margin-left: 170px;
+  }
+
+  /* Cuerpo */
+  section {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    left: 10px;
+  }
+
+  .titulo {
+    font-size: 7mm;
+  }
+
+  .card_img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn_ver {
+    font-size: 12px;
+  }
+
+  .title,
+  .nuestro {
+    font-size: 1.2rem;
+  }
+
+  .derechos_a {
+    height: auto;
+  }
+
+  .derechos {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 5mm;
+  }
+
+  .contacto p {
+    font-size: 20px;
+  }
+}
